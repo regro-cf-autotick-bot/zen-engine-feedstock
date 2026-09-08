@@ -13,7 +13,7 @@ source:
   sha256: e300812dee2839f068a634b04c5ef1809dac5177b235b65a0e592db9fc3b350f
 
 build:
-  number: 0
+  number: 1
   skip: python == "3.14.* *_cp314t" and target_platform == "linux-aarch64"
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
